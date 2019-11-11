@@ -1,0 +1,22 @@
+.card-deck {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.container-fluid {
+    background-image: url("../images/Background-2.jpg");
+    background-size: cover ;
+    width: 100%;
+    height: auto;
+    /* overflow: hidden;s */
+    /* background-repeat: none; */
+}
+.jumbotron {
+    background-color: transparent;
+}
+#small {
+    height: 17em;
+}
+.video {
+    margin: 1em 1em;
+    border-radius: 2em;
+}

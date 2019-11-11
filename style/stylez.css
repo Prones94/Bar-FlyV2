@@ -1,0 +1,8 @@
+.jumbotron {
+    background-color: transparent;
+}
+body {
+    background-image: url("../images/Background-3.jpg");
+    background-size: contain;
+    overflow: hidden;
+}

@@ -16,33 +16,124 @@
       href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto:300,400"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style/styles.css">
   </head>
-  <body>
+  <body class="container-fluid">
     <section>
       <header>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="drinks.html">Drinks</a></li>
-            <li><a href="bars.html">Bars</a></li>
-            <li><a href="videos.html">Tips And Tricks</a></li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-header">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="drinks.html">Drinks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="videos.html">Tips and Tricks</a>
+            </li>
           </ul>
         </nav>
       </header>
     </section>
-    <section></section>
+    <section class="text-center jumbotron jumbotron-fluid" style="margin: 2em 0 5em 0;">
+      <div class="container">
+        <h1 class="display-3 text-light">8 Easy Drinks to Make</h1>
+        <h3 class="lead text-light">Or Just Look Fancy!</h3>
+      </div>
+    </section>
+    <section class="drinks">
+      <div class="card-deck row">
+        <div class="card bg-dark col-3">
+          <a href="https://www.liquor.com/recipes/negroni/#gs.futnix">
+          <img class="card-img-top" src="images/Negroni.jpg" alt="Negroni" />
+          <div class="card-body">
+            <p class="card-text text-white text-center">Negroni</p>
+          </div>
+        </a>
+        </div>
+        <div class="card bg-dark col-3">
+          <a href="https://www.liquor.com/recipes/gimlet/#gs.futrk2">
+          <img class="card-img-top" src="images/Gimlet.jpeg" alt="Gimlet" />
+          <div class="card-body">
+            <p class="card-text text-white text-center">Gimlet</p>
+          </div>
+          </a>
+        </div>
+        <div class="card bg-dark col-3">
+          <a href="https://www.liquor.com/recipes/dale-degroff-bourbon-old-fashioned/#gs.futzwv">
+          <img class="card-img-top" src="images/Old Fashioned.jpg" alt="Old Fashioned" />
+          <div class="card-body">
+            <p class="card-text text-white text-center">Old Fashioned</p>
+          </div>
+        </a>
+        </div>
+        <div class="card bg-dark col-4">
+          <a href="https://www.liquor.com/recipes/moscow-mule-cocktail-recipe/#gs.fuu2gi">
+            <img class="card-img-top" src="images/Moscow.jpg" alt="Moscow Mule">
+            <div class="card-body">
+              <p class="card-text text-white text-center">Moscow Mule</p>
+            </div>
+          </div>
+          </a>
+      </div>
+      <div class="card-deck row">
+          <div class="card bg-dark col-3">
+              <a href="https://www.liquor.com/recipes/white-russian/#gs.fuu43n">
+              <img class="card-img-top" src="images/Russian.jpg" alt="White Russian"/>
+              <div class="card-body">
+                <p class="card-text text-white text-center">White Russian</p>
+              </div>
+            </a>
+            </div>
+            <div class="card bg-dark col-3">
+              <a href="https://www.liquor.com/recipes/manhattan-3/#gs.fuu7jz">
+              <img class="card-img-top" src="images/Manhattan.jpg" alt="Manhattan" />
+              <div class="card-body">
+                <p class="card-text text-white text-center">Manhattan</p>
+              </div>
+              </a>
+            </div>
+            <div class="card bg-dark col-3">
+              <a href="https://www.liquor.com/recipes/french-75-4/#gs.furj63">
+              <img class="card-img-top" src="images/French.jpg" alt="French 75" />
+              <div class="card-body">
+                <p class="card-text text-white text-center">French 75</p>
+              </div>
+            </a>
+            </div>
+            <div class="card  bg-dark col-4">
+              <a href="https://www.liquor.com/recipes/whiskey-sour-2/#gs.furlcg">
+                <img class="card-img-top"  id= "small" src="images/W-Sour.jpg" alt="Whiskey Sour">
+                <div class="card-body">
+                  <p class="card-text text-white text-center">Whiskey Sour</p>
+                </div>
+              </a>
+              </div>
+      </div>
+    </section>
     <section>
       <nav>
-        <ul>
-          <li><a href="https://caskstore.com">Shop</a></li>
-          <li><a href="http://www.beverageacademy.com/">Learn</a></li>
+        <ul class="nav nav-pills nav-fill border-light">
+          <li class="nav-item">
+            <a href="https://caskstore.com">Shop </a>
+          </li>
+          <li class="nav-item">
+            <a href="http://www.beverageacademy.com/">Learn</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.linkedin.com/in/ian-rones-8819ab73/"
+              >Follow Me!</a
+            >
+          </li>
         </ul>
       </nav>
     </section>
     <section>
-      <footer>
-        <small>@copy; Ian Rones @ Make School</small>
+      <footer class="d-flex justify-content-center">
+        <small>&copy; Ian Rones @ Make School</small>
       </footer>
     </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>

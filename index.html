@@ -21,14 +21,11 @@
   <body class="container">
     <section>
       <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-header">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark nav-header">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+            <li class="nav-brand"><a class="nav-link" href="#hero">Home</a></li>
             <li class="nav-item">
               <a class="nav-link" href="drinks.html">Drinks</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="bars.html">Bars</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="videos.html">Tips and Tricks</a>
@@ -59,16 +56,26 @@
           <div class="carousel-item active">
             <img src="images/Drink-1.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <h1>This is Bar-Fly</h1>
-              <p>You're One Stop Shop For All Liquid Libations</p>
-              <button><a href="/drinks.html">Click Here To Start</a></button>
+              <h1 class="display-3">This is Bar-Fly</h1>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" id="quote-lift">
             <img src="images/Drink-2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block blockquote text-right">
+                    <p style="margin-bottom: 1em;">Alcohol May Be Man's Worst Enemy, But The Bible Says Love Your
+                        Enemy
+                    </p>
+                    <footer class="blockquote-footer"><cite title="Frank Sinata">Frank Sinatra</cite></footer>
+                  </div>
           </div>
           <div class="carousel-item">
             <img src="images/Drink-3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block blockquote text-right">
+                    <p>The Problem With Being A Bartender Is Trying To Figure Out Who's
+                        Drunk and Who's Just Plain Stupid
+                    </p>
+                    <footer class="blockquote-footer text-center"><cite title="Domesticated">DomesticatedMomster.com</cite></footer>
+                  </div>
           </div>
         </div>
         <a
@@ -92,28 +99,6 @@
       </div>
     </section>
 
-    <section class="quotes">
-      <ul>
-        <li>
-          <blockquote>
-            <q class="mb-0"
-              >Alcohol May Be Man's Worst Enemy, But The Bible Says Love Your
-              Enemy</q
-            ><br />
-            <small class="blockquote-footer"> Frank Sinatra</small>
-          </blockquote>
-        </li>
-        <li>
-          <blockquote>
-            <q class="mb-0"
-              >The Problem With Being A Bartender Is Trying To Figure Out Who's
-              Drunk and Who's Just Plain Stupid</q
-            >
-            <small class="blockquote-footer"> DomesticatedMomster.com</small>
-          </blockquote>
-        </li>
-      </ul>
-    </section>
     <section>
       <nav>
         <ul
@@ -133,6 +118,7 @@
         </ul>
       </nav>
     </section>
+
     <section>
       <footer class="d-flex justify-content-center">
         <small>&copy; Ian Rones @ Make School</small>

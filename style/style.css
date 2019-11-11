@@ -9,9 +9,24 @@ html {
 .quotes {
     color: white;
     padding: 5rem 0;
-    
+
 }
 blockquote {
     margin: 0 0 5rem;
     
+}
+.display-3 {
+    margin-bottom:6em;
+}
+section {
+    margin: 2em 1em;
+}
+#quote-lift {
+    margin-bottom: 45px;
+}
+.nav-item {
+    border: white;
+}
+.alert {
+    margin: 5em 0 4em 0;
 }
